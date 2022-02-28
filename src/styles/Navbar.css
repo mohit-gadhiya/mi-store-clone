@@ -1,0 +1,34 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+  background-color: #fff;
+  z-index: 1000;
+}
+.navlinks {
+  color: rgb(59, 59, 59);
+  text-decoration: none;
+  margin: 1rem 1.2rem;
+  font-size: 1.2em;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo{
+  background-color: black;
+}
+.searchbox {
+   position: relative;
+   left:1rem;
+}
+.searchbox >input{
+   border:none;
+   border-bottom: 1px solid rgba(128,128,128,0.76);
+   width:10rem;
+   font-size: 1.1rem;
+   outline: none;
+   color:rgb(61, 61, 61);
+   font-weight: 100;
+}
