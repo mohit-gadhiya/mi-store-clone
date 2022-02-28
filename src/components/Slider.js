@@ -14,6 +14,7 @@ const Slider = ({start}) => {
             </Carousel.Item>
          ))}
      </Carousel>
+     // Hello from conflict master
   )
 }
 
